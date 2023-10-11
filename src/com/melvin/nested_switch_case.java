@@ -10,21 +10,16 @@ public class nested_switch_case {
 
 
         switch (empID) {
-            case 1:
-                System.out.println("Melvin");
-                break;
-            case 2:
-                System.out.println("Shinto");
-                break;
-            case 3:
+            case 1 -> System.out.println("Melvin");
+            case 2 -> System.out.println("Shinto");
+            case 3 -> {
                 switch (department) {
                     case "BCE" -> System.out.println("Core");
                     case "BAI" -> System.out.println("AI-ML");
                     default -> System.out.println("Enter another department");
                 }
-                break;
-            default:
-                System.out.println("Enter correct empID");
+            }
+            default -> System.out.println("Enter correct empID");
         }
     }
 }
