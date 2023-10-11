@@ -7,11 +7,11 @@ public class Methods {
         //Take input of two numbers and print sum
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter first number: ");
+        System.out.print("Enter first number: ");
         int num1 = sc.nextInt();
-        System.out.println("Enter second number: ");
+        System.out.print("Enter second number: ");
         int num2 = sc.nextInt();
         int sum = num1 + num2;
-        System.out.println(sum);
+        System.out.println("The sum = "+sum);
     }
 }
