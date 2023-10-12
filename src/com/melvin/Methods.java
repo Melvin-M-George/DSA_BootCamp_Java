@@ -30,6 +30,11 @@ public class Methods {
         return num1+num2;
     }
 
+    static String myGreet(String name) {
+        String message = "Hello "+ name;
+        return message;
+    }
+
     public static void main(String[] args) {
         //int ans = Sum();
         //System.out.println(ans);
@@ -37,6 +42,10 @@ public class Methods {
         //Greeting();
 
         //System.out.println(greet());
-        System.out.println(sum1(10,20));
+        //System.out.println(sum1(10,20));
+        String personalised = myGreet("Melvin");
+        System.out.println(personalised);
     }
+
+
 }
