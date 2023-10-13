@@ -5,6 +5,12 @@ public class Scope {
         int a = 10;
         int b = 20;
 
+        {
+            int c = 45;
+            System.out.println(c);
+        }
+
+
     }
 
     static void random(int marks){
