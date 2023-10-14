@@ -6,7 +6,7 @@ public class Method_Overloading {
     public static void main(String[] args) {
         fun(78);
         fun("Melvin");
-        fun();
+        //fun(); Error-->Ambiguity
     }
     static void fun(int a){
         System.out.println(a);
