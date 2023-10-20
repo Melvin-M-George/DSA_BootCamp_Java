@@ -28,6 +28,7 @@ public class MultiDim_Arrays {
             }
         }
         // Output
+
 //        for (int row = 0; row < arr.length ; row++) {
 //            // for each col in every row
 //            for (int col = 0; col < arr[row].length ; col++) {
