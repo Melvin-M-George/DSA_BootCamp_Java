@@ -24,6 +24,10 @@ public class ArrayListExample {
         for (int i = 0; i < 5; i++) {
             list.add(sc.nextInt());
         }
+        for (int i = 0; i < 5; i++) {
+            System.out.print(list.get(i)+ " ");
+        }
+        System.out.println();
 
         System.out.println(list);
 
