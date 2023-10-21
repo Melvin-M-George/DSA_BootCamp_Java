@@ -7,6 +7,13 @@ public class ArrayListExample {
         //Syntax of Arraylist
         ArrayList<Integer> list = new ArrayList<Integer>();
 
+        list.add(34);
+        list.add(4);
+        list.add(67);
+        list.add(89);
+
+        System.out.println(list);
+
 
     }
 }
