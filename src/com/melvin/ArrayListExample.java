@@ -12,6 +12,13 @@ public class ArrayListExample {
         list.add(67);
         list.add(89);
 
+
+        //System.out.println(list.contains(4));
+        System.out.println(list);
+
+        list.set(0,99);
+        list.remove(2);
+
         System.out.println(list);
 
 
