@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ArrayListExample {
     public static void main(String[] args) {
         //Syntax of Arraylist
-        ArrayList<Integer> list = new ArrayList<Integer>();
+        //ArrayList<Integer> list = new ArrayList<Integer>();
         /*
         list.add(34);
         list.add(4);
@@ -19,17 +19,38 @@ public class ArrayListExample {
         System.out.println(list);
         */
 
+//
+//
+//        for (int i = 0; i < 5; i++) {
+//            list.add(sc.nextInt());
+//        }
+//        for (int i = 0; i < 5; i++) {
+//            System.out.print(list.get(i)+ " ");  // list[index] will not work here
+//        }
+//        System.out.println();
+//
+//        System.out.println(list);
+
+        //MultiDimensional Array List
         Scanner sc = new Scanner(System.in);
+        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
 
-        for (int i = 0; i < 5; i++) {
-            list.add(sc.nextInt());
+        //initialization
+        for (int i = 0; i < 3 ; i++) {
+            list.add(new ArrayList<>());
         }
-        for (int i = 0; i < 5; i++) {
-            System.out.print(list.get(i)+ " ");
-        }
-        System.out.println();
 
+        //Add elements
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3 ; j++) {
+                list.get(i).add(sc.nextInt());
+            }
+        }
         System.out.println(list);
+
+
+
+
 
 
 
