@@ -7,12 +7,12 @@ public class Max_item {
     }
 
     static int max(int [] arr){
-        int max = arr[0];
+        int maxValue = arr[0];
         for (int i = 0; i < arr.length; i++) {
-            if(max < arr[i]){
-                max = arr[i];
+            if(maxValue < arr[i]){
+                maxValue = arr[i];
             }
         }
-        return max;
+        return maxValue;
     }
 }
