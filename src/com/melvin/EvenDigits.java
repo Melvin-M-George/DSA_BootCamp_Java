@@ -2,7 +2,7 @@ package com.melvin;
 
 public class EvenDigits {
     public static void main(String[] args) {
-        int [] nums = {12,345,22,6,7896};
+        int [] nums = {12,345,22,62,7896};
         int ans = findNumbers(nums);
         System.out.println(ans);
     }
@@ -21,7 +21,7 @@ public class EvenDigits {
 
     //Function to check the number contains even digits or not
     private static boolean even(int num) {
-        int numberOfDigits = digits(num);
+        int numberOfDigits = digits2(num);
         if(numberOfDigits % 2 == 0){
             return true;
         }
@@ -37,5 +37,9 @@ public class EvenDigits {
             num = num / 10;
         }
         return count;
+    }
+
+    static int digits2(int num){
+        return (int)(Math.log10(num)) + 1;
     }
 }
