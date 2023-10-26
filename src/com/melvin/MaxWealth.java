@@ -9,6 +9,7 @@ public class MaxWealth {
 
     static int maximumWealth(int[][] accounts ){
         // row = person and col = account
+
         int max = Integer.MIN_VALUE;
         for (int person = 0; person < accounts.length; person++) {
             //whenever you start a new col, take a new sum for that row
