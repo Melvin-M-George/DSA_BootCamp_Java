@@ -6,7 +6,6 @@ public class findMinNumber {
         int ans = min(arr);
         System.out.println(ans);
     }
-
     static int min(int [] arr){
         int minimum = Integer.MAX_VALUE;
         for(int element : arr){
