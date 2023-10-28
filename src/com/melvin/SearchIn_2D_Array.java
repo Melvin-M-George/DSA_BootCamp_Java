@@ -8,8 +8,7 @@ public class SearchIn_2D_Array {
                 {1,2,34},
                 {4,5,6,7},
                 {7,8,9,2,},
-                {18,12}
-        };
+                {18,12}};
         int target = 2;
         int [] ans = search(arr,target);//format of return value {row,col}
         System.out.println(Arrays.toString(ans));
