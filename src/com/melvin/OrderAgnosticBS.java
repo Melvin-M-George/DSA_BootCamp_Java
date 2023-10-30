@@ -2,9 +2,9 @@ package com.melvin;
 
 public class OrderAgnosticBS {
     public static void main(String[] args) {
-        int[] arr = {-24,-18,-5,0,1,5,9,15,78,111};
-        //int[] arr = {70,57,34, 16,11, 9,4,1};
-        int target = 0;
+        //int[] arr = {-24,-18,-5,0,1,5,9,15,78,111};
+        int[] arr = {70,57,34, 16,11, 9,4,1,0,-5,-9,-16};
+        int target = -9;
         int ans = orderAgnosticBS(arr,target);
         System.out.println(ans);
     }
