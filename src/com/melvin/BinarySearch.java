@@ -3,7 +3,7 @@ package com.melvin;
 public class BinarySearch {
     public static void main(String[] args) {
         int [] arr ={-122, -34, -4, 0, 11, 22, 34, 48, 57, 89, 133, 189};
-        int ans = binarySearch(arr,1333);
+        int ans = binarySearch(arr,-122);
         System.out.println(ans);
     }
 
