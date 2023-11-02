@@ -16,7 +16,6 @@ public class BinarySearch {
         while(start <= end){
             // find the middle element
             //int mid = (start + end) / 2; there is a possibility that start + end exceeds the range of int
-
             int mid = start + (end - start)/2;
 
             if(target < arr[mid]){
