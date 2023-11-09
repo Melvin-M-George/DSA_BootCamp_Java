@@ -2,7 +2,7 @@ package com.melvin;
 
 public class FirstAndLastPosition {
     public static void main(String[] args) {
-
+        int[] nums = {5,7,7,8,8,10};
     }
 
     public int[] searchRange(int [] nums, int target){
@@ -44,6 +44,6 @@ public class FirstAndLastPosition {
             }
         }
 
-       return -1;
+       return ans;
     }
 }
