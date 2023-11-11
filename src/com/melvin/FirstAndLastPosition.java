@@ -11,7 +11,6 @@ public class FirstAndLastPosition {
         //check for the first occurrence of target first
         int start = search(nums, target ,true);
         int end = search(nums, target, false);
-
         ans[0] = start;
         ans[1] = end;
         return ans;
