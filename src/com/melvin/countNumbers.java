@@ -13,7 +13,6 @@ public class countNumbers {
              int reminder = n % 10; //last digit
              if(reminder==3){
                  count++;
-
              }
              n = n/10;
 
