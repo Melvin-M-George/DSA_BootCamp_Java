@@ -6,7 +6,7 @@ public class Count_odd_even {
     }
     public void countOddEven(int[] arr, int n)
     {
-        // Code here
+
         int countodd = 0;
         int counteven = 0;
         for(int i = 0; i < n ; i++){
