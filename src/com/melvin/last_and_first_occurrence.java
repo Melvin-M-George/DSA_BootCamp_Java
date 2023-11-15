@@ -4,7 +4,7 @@ public class last_and_first_occurrence {
     public static void main(String[] args) {
 
     }
-    public pair indexes(long v[], long x)
+    public int[] indexes(long v[], long x)
     {
         // Your code goes here
         int first = -1;
@@ -20,9 +20,6 @@ public class last_and_first_occurrence {
             }
 
         }
-
-        pair p2 = new pair(first,second);
-        return p2;
 
     }
 }
