@@ -20,6 +20,7 @@ public class last_and_first_occurrence {
             }
 
         }
+        return new int[] {first,second};
 
     }
 }
