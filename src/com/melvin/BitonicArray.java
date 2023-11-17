@@ -17,9 +17,7 @@ public class BitonicArray {
             int mid = start + (end - start)/2;
             if(arr[mid] > arr[mid+1]){
                 //you are in the decreasing part of the array
-                //mid might be a possible ans , but look at left
-                //that is why end != mid -1
-                end = mid;
+                end = mid-1;
             } else {
                 start = mid + 1;
             }
