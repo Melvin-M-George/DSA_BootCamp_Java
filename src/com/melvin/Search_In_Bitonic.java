@@ -1,7 +1,7 @@
 package com.melvin;
 
 public class Search_In_Bitonic {
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
     }
 
