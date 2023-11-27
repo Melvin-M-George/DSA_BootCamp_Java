@@ -12,6 +12,7 @@ public class Search_In_Bitonic {
             return firstTry;
         }
         //try to search in second half
+
     }
     static int peakIndexInMountainArray(int[] arr) {
         int start = 0;
